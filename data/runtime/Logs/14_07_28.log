@@ -1,0 +1,125 @@
+[ 2014-07-28T18:50:14+08:00 ] 127.0.0.1 /thinkcmf/index.php?g=admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002210s ]
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.004658s ]
+SQL: SELECT * FROM `sp_users` WHERE ( `user_login` = 'admin' ) LIMIT 1   [ RunTime:0.000407s ]
+SQL: UPDATE `sp_users` SET `user_login`='admin',`user_pass`='c535018ee94621232f297a57a5a743894a0e4a801fc389af',`user_nicename`='',`user_email`='admin@admin.com',`user_url`='',`last_login_ip`='127.0.0.1',`last_login_time`='2014-07-28 18:50:14',`create_time`='2014-07-28 06:49:04',`user_activation_key`='',`user_status`=1,`display_name`='admin',`role_id`=1 WHERE ( `ID` = '1' ) [ RunTime:0.000470s ]
+NOTIC: [8] Undefined index: data C:\wamp\www\thinkcmf\simplewind\Lib\Action\AppframeAction.class.php 第 61 行.
+
+[ 2014-07-28T18:53:30+08:00 ] 127.0.0.1 /thinkcmf/index.php?g=admin&m=post&a=add_post
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001875s ]
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.005552s ]
+SQL: SELECT * FROM `sp_users` WHERE ( ID=1 ) LIMIT 1   [ RunTime:0.001030s ]
+SQL: SHOW COLUMNS FROM `sp_posts` [ RunTime:0.005313s ]
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.005146s ]
+SQL: SHOW COLUMNS FROM `sp_term_relationships` [ RunTime:0.005095s ]
+SQL: SELECT * FROM `sp_terms` ORDER BY `listorder` asc  [ RunTime:0.000447s ]
+SQL: INSERT INTO `sp_posts` (`post_modified`,`post_status`,`post_title`,`post_keywords`,`post_excerpt`,`post_content`,`post_date`,`smeta`,`post_author`) VALUES ('2014-07-28 18:53:15',1,'测试文章','测试文章','测试文章测试文章测试文章','<p>测试文章测试文章测试文章测试文章测试文章测试文章测试文章测试文章测试文章</p>','2014-07-28 18:53:30','{\"thumb\":\"\"}','1') [ RunTime:0.000899s ]
+SQL: INSERT INTO `sp_term_relationships` (`term_id`,`object_id`) VALUES ('1',1) [ RunTime:0.000638s ]
+NOTIC: [8] Undefined index: data C:\wamp\www\thinkcmf\simplewind\Lib\Action\AppframeAction.class.php 第 61 行.
+
+[ 2014-07-28T18:54:03+08:00 ] 127.0.0.1 /thinkcmf/index.php?g=admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001795s ]
+NOTIC: [8] Undefined index: data C:\wamp\www\thinkcmf\simplewind\Lib\Action\AppframeAction.class.php 第 61 行.
+
+[ 2014-07-28T18:54:09+08:00 ] 127.0.0.1 /thinkcmf/index.php?g=admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001154s ]
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.004452s ]
+SQL: SELECT * FROM `sp_users` WHERE ( `user_login` = 'admin' ) LIMIT 1   [ RunTime:0.000596s ]
+SQL: UPDATE `sp_users` SET `user_login`='admin',`user_pass`='c535018ee94621232f297a57a5a743894a0e4a801fc389af',`user_nicename`='',`user_email`='admin@admin.com',`user_url`='',`last_login_ip`='127.0.0.1',`last_login_time`='2014-07-28 18:54:09',`create_time`='2014-07-28 06:49:04',`user_activation_key`='',`user_status`=1,`display_name`='admin',`role_id`=1 WHERE ( `ID` = '1' ) [ RunTime:0.000456s ]
+NOTIC: [8] Undefined index: data C:\wamp\www\thinkcmf\simplewind\Lib\Action\AppframeAction.class.php 第 61 行.
+
+[ 2014-07-28T19:12:26+08:00 ] 127.0.0.1 /thinkcmf/index.php?g=admin&m=slide&a=add_post
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001112s ]
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.004585s ]
+SQL: SELECT * FROM `sp_users` WHERE ( ID=1 ) LIMIT 1   [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `sp_slide` [ RunTime:0.004554s ]
+SQL: SHOW COLUMNS FROM `sp_slide_cat` [ RunTime:0.004640s ]
+SQL: INSERT INTO `sp_slide` (`slide_pic`,`slide_cid`,`slide_name`,`slide_url`,`slide_des`,`slide_content`) VALUES ('53d63016c9ada.png','0','1121212','1211212','123123','13212312123') [ RunTime:0.001362s ]
+NOTIC: [8] Undefined index: data C:\wamp\www\thinkcmf\simplewind\Lib\Action\AppframeAction.class.php 第 61 行.
+
+[ 2014-07-28T19:17:06+08:00 ] 127.0.0.1 /thinkcmf/index.php?g=admin&m=post&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001864s ]
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.007033s ]
+SQL: SELECT * FROM `sp_users` WHERE ( ID=1 ) LIMIT 1   [ RunTime:0.000740s ]
+SQL: SHOW COLUMNS FROM `sp_posts` [ RunTime:0.005356s ]
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.007262s ]
+SQL: SHOW COLUMNS FROM `sp_term_relationships` [ RunTime:0.004570s ]
+SQL: UPDATE `sp_posts` SET `post_modified`='2014-07-28 18:53:15',`post_status`=1,`post_title`='测试文章',`post_keywords`='测试文章',`post_excerpt`='测试文章测试文章测试文章',`post_content`='<p>测试文章测试文章测试文章测试文章测试文章测试文章测试文章测试文章测试文章</p>',`smeta`='{\"thumb\":\"\",\"photo\":[{\"url\":\"53d631211a851.png\",\"alt\":\"\\u56fe\\u72471\"}]}' WHERE ( `ID` = '1' ) [ RunTime:0.000958s ]
+NOTIC: [8] Undefined index: data C:\wamp\www\thinkcmf\simplewind\Lib\Action\AppframeAction.class.php 第 61 行.
+
+[ 2014-07-28T19:17:10+08:00 ] 127.0.0.1 /thinkcmf/index.php?g=admin&m=post&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001901s ]
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.004724s ]
+SQL: SELECT * FROM `sp_users` WHERE ( ID=1 ) LIMIT 1   [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `sp_posts` [ RunTime:0.005072s ]
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.005303s ]
+SQL: SHOW COLUMNS FROM `sp_term_relationships` [ RunTime:0.005309s ]
+SQL: UPDATE `sp_posts` SET `post_modified`='2014-07-28 18:53:15',`post_status`=1,`post_title`='测试文章',`post_keywords`='测试文章',`post_excerpt`='测试文章测试文章测试文章',`post_content`='<p>测试文章测试文章测试文章测试文章测试文章测试文章测试文章测试文章测试文章</p>',`smeta`='{\"thumb\":\"\",\"photo\":[{\"url\":\"53d631211a851.png\",\"alt\":\"\\u56fe\\u72471\"}]}' WHERE ( `ID` = '1' ) [ RunTime:0.000460s ]
+NOTIC: [8] Undefined index: data C:\wamp\www\thinkcmf\simplewind\Lib\Action\AppframeAction.class.php 第 61 行.
+
+[ 2014-07-28T19:20:08+08:00 ] 127.0.0.1 /thinkcmf/index.php?g=admin&m=term&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002094s ]
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.004841s ]
+SQL: SELECT * FROM `sp_users` WHERE ( ID=1 ) LIMIT 1   [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.004651s ]
+SQL: UPDATE `sp_terms` SET `parent`='0',`name`='首页',`description`='',`taxonomy`='picture',`seo_title`='',`seo_keywords`='',`seo_description`='',`list_tpl`='list',`one_tpl`='article' WHERE ( `term_id` = '1' ) [ RunTime:0.000548s ]
+SQL: UPDATE `sp_terms` SET `path`='0-1' WHERE ( term_id=1 ) [ RunTime:0.000200s ]
+NOTIC: [8] Undefined index: term_id C:\wamp\www\thinkcmf\simplewind\Lib\Model\TermsModel.class.php 第 192 行.
+NOTIC: [8] Undefined index: parent C:\wamp\www\thinkcmf\simplewind\Lib\Model\TermsModel.class.php 第 193 行.
+SQL: UPDATE `sp_terms` SET `path`='0-' WHERE ( term_id= ) [ RunTime:0.000117s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `sp_terms` SET `path`='0-' WHERE ( term_id= )
+NOTIC: [8] Undefined index: data C:\wamp\www\thinkcmf\simplewind\Lib\Action\AppframeAction.class.php 第 61 行.
+
+[ 2014-07-28T19:24:37+08:00 ] 127.0.0.1 /thinkcmf/index.php?g=admin&m=post&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000986s ]
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.004691s ]
+SQL: SELECT * FROM `sp_users` WHERE ( ID=1 ) LIMIT 1   [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `sp_posts` [ RunTime:0.007286s ]
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.007236s ]
+SQL: SHOW COLUMNS FROM `sp_term_relationships` [ RunTime:0.007632s ]
+SQL: UPDATE `sp_posts` SET `post_modified`='2014-07-28 18:53:15',`post_status`=1,`post_title`='测试文章',`post_keywords`='测试文章',`post_excerpt`='测试文章测试文章测试文章',`post_content`='<p>测试文章测试文章测试文章测试文章测试文章测试文章测试文章测试文章测试文章</p>',`smeta`='{\"thumb\":\"53d632f251c0b.png\",\"photo\":[{\"url\":\"53d631211a851.png\",\"alt\":\"\\u56fe\\u72471\"}]}' WHERE ( `ID` = '1' ) [ RunTime:0.000575s ]
+NOTIC: [8] Undefined index: data C:\wamp\www\thinkcmf\simplewind\Lib\Action\AppframeAction.class.php 第 61 行.
+
+[ 2014-07-28T19:50:31+08:00 ] 127.0.0.1 /thinkcmf/index.php?g=admin&m=post&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002955s ]
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.005157s ]
+SQL: SELECT * FROM `sp_users` WHERE ( ID=1 ) LIMIT 1   [ RunTime:0.000747s ]
+SQL: SHOW COLUMNS FROM `sp_posts` [ RunTime:0.005289s ]
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.005051s ]
+SQL: SHOW COLUMNS FROM `sp_term_relationships` [ RunTime:0.006957s ]
+SQL: UPDATE `sp_posts` SET `post_modified`='2014-07-28 18:53:15',`post_status`=1,`post_title`='测试文章',`post_keywords`='测试文章',`post_excerpt`='价格是10￥',`post_content`='<p>测试文章测试文章测试文章测试文章测试文章测试文章测试文章测试文章测试文章</p>',`smeta`='{\"thumb\":\"53d632f251c0b.png\",\"photo\":[{\"url\":\"53d631211a851.png\",\"alt\":\"\\u56fe\\u72471\"}]}' WHERE ( `ID` = '1' ) [ RunTime:0.000694s ]
+NOTIC: [8] Undefined index: data C:\wamp\www\thinkcmf\simplewind\Lib\Action\AppframeAction.class.php 第 61 行.
+
+[ 2014-07-28T19:51:43+08:00 ] 127.0.0.1 /thinkcmf/index.php?g=admin&m=post&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001733s ]
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.005786s ]
+SQL: SELECT * FROM `sp_users` WHERE ( ID=1 ) LIMIT 1   [ RunTime:0.000453s ]
+SQL: SHOW COLUMNS FROM `sp_posts` [ RunTime:0.008242s ]
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.006641s ]
+SQL: SHOW COLUMNS FROM `sp_term_relationships` [ RunTime:0.004167s ]
+SQL: UPDATE `sp_posts` SET `post_modified`='2014-07-28 18:53:15',`post_status`=1,`post_title`='测试文章',`post_keywords`='测试文章',`post_excerpt`='价格是10￥',`post_content`='<p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px 0px 15px; border: 0px; outline: none; list-style: none; color: rgb(51, 51, 51); font-family: 宋体; font-size: 14px; line-height: 28px; white-space: normal;\">新华网北京７月２７日电（记者王东明）经中央军委主席习近平批准，由解放军总参谋部、总政治部、总后勤部、总装备部制定的《军队<span name=\"HL_TAG\" style=\"border-bottom-style: dotted; border-bottom-width: 0px; color: rgb(0, 132, 216); text-decoration: underline;\">奖励</span>和表彰管理规定》日前印发全军和武警部队，并将于８月１日起施行。这是我军首部将奖励和表彰两种褒扬形式作为整体进行系统规范的专门法规，将对健全完善我军激励机制和荣誉制度体系，更好地发挥奖励和表彰的导向作用提供更加有力的法制化保障。</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px 0px 15px; border: 0px; outline: none; list-style: none; color: rgb(51, 51, 51); font-family: 宋体; font-size: 14px; line-height: 28px; white-space: normal;\">　　实施奖励和表彰是我军<span name=\"HL_TAG\" style=\"border-bottom-style: dotted; border-bottom-width: 0px; color: rgb(0, 132, 216); text-decoration: underline;\">褒扬</span>先进、鼓舞士气的基本方式。经过几十年的发展，我军逐步形成了特色鲜明的制度，发挥了重要作用，但这些制度尤其是关于表彰的规定大多分散于多个法规和文件中。随着军队职能使命不断拓展、编制体制调整改革、官兵结构变化等，同时部队对目前奖励数量偏多、等级偏高、单项表彰过多等问题也有较多反映，都对奖励和表彰工作提出了新的要求。</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px 0px 15px; border: 0px; outline: none; list-style: none; color: rgb(51, 51, 51); font-family: 宋体; font-size: 14px; line-height: 28px; white-space: normal;\">　　《规定》共５章４２条，明确军队所称奖励，是依照《中国人民解放军纪律条令》规定的对单位和个人给予嘉奖，记一、二、三等功，授予荣誉称号；所称表彰，是指团以上单位、各级机关以通报形式对单位和个人给予褒扬。</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px 0px 15px; border: 0px; outline: none; list-style: none; color: rgb(51, 51, 51); font-family: 宋体; font-size: 14px; line-height: 28px; white-space: normal;\">　　《规定》同时明确，<span name=\"HL_TAG\" style=\"border-bottom-style: dotted; border-bottom-width: 0px; color: rgb(0, 132, 216); text-decoration: underline;\">总政治部</span>主管全军奖励和表彰工作，总政治部组织部承办全军奖励和表彰管理有关工作。</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px 0px 15px; border: 0px; outline: none; list-style: none; color: rgb(51, 51, 51); font-family: 宋体; font-size: 14px; line-height: 28px; white-space: normal;\">　　《规定》提出奖励和表彰管理工作应当坚持标准、控制数量、严格程序、归口管理，即牢固树立战斗力这个唯一的根本的标准，实施奖励和表彰向能打仗、打胜仗聚焦，向战备训练、遂行重大任务和作战部队倾斜；适当提高对驻边远艰苦地区部队的奖励比例，调整新型作战力量基层单位的审批权限，大幅压缩对领导干部和机关的奖励表彰；合理确定奖励比例和表彰数量，严格控制<span name=\"HL_TAG\" style=\"border-bottom-style: dotted; border-bottom-width: 0px; color: rgb(0, 132, 216); text-decoration: underline;\">高等级</span>奖励和高规格表彰；明确奖励和表彰管理的职能部门，建立表彰申报审批制度，坚持按权限和程序实施奖励和表彰。</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px 0px 15px; border: 0px; outline: none; list-style: none; color: rgb(51, 51, 51); font-family: 宋体; font-size: 14px; line-height: 28px; white-space: normal;\">　　《规定》首次对表彰工作进行了规范，对表彰的项目数量、申报审批、办理程序、承办部门等作了明确；规定明确，为受表彰单位颁发的奖牌、奖状，为受表彰个人颁发的证书、证章式样由总政治部规定；明确表彰一律不发奖金。</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px 0px 15px; border: 0px; outline: none; list-style: none; color: rgb(51, 51, 51); font-family: 宋体; font-size: 14px; line-height: 28px; white-space: normal;\">　　《规定》还对宣扬激励的仪式形式作了统一规定，对佩带勋章奖章的时机和场合进行了明确；制定了检查监督措施，对检查监督内容、惩处办法、责任追究等作了完善</p><p><br/></p>',`smeta`='{\"thumb\":\"53d632f251c0b.png\",\"photo\":[{\"url\":\"53d631211a851.png\",\"alt\":\"\\u56fe\\u72471\"}]}' WHERE ( `ID` = '1' ) [ RunTime:0.000849s ]
+NOTIC: [8] Undefined index: data C:\wamp\www\thinkcmf\simplewind\Lib\Action\AppframeAction.class.php 第 61 行.
+

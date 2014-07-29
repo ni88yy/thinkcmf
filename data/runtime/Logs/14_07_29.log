@@ -1,0 +1,9 @@
+[ 2014-07-29T16:19:26+08:00 ] 127.0.0.1 /thinkcmf/index.php?g=admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001648s ]
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.019879s ]
+SQL: SELECT * FROM `sp_users` WHERE ( `user_login` = 'admin' ) LIMIT 1   [ RunTime:0.000894s ]
+SQL: UPDATE `sp_users` SET `user_login`='admin',`user_pass`='c535018ee94621232f297a57a5a743894a0e4a801fc389af',`user_nicename`='',`user_email`='admin@admin.com',`user_url`='',`last_login_ip`='127.0.0.1',`last_login_time`='2014-07-29 16:19:26',`create_time`='2014-07-28 06:49:04',`user_activation_key`='',`user_status`=1,`display_name`='admin',`role_id`=1 WHERE ( `ID` = '1' ) [ RunTime:0.006244s ]
+NOTIC: [8] Undefined index: data C:\wamp\www\thinkcmf\simplewind\Lib\Action\AppframeAction.class.php 第 61 行.
+

@@ -1,0 +1,1 @@
+<?php	return array ( 't1' => array ( 'term_id' => '1', 'name' => '未分类', 'slug' => '', 'taxonomy' => 'article', 'description' => '', 'parent' => '0', 'count' => '0', 'path' => '0-1', 'seo_title' => '', 'seo_keywords' => '', 'seo_description' => '', 'list_tpl' => 'list', 'one_tpl' => 'article', 'listorder' => '0', 'status' => '1', ), );?>
